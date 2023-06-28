@@ -1,0 +1,59 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=EB+Garamond&family=Ysabeau+SC:wght@100;200&display=swap');
+}
+* {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Ysabeau SC', sans-serif;  
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/bannerimage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.bannerTitle {
+    font-size: 2rem;
+}
+.bannerDesc {
+    font-size: 1rem;
+}
+
+.card {
+    cursor: pointer;
+    column-width: auto;
+    
+}
+
+.card:hover {
+    background-color: rgb(189, 231, 21);
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.bootstrap-icons {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid rgb(20, 155, 192);
+}
+
+.card-img-top{
+    height: 50vh;
+    row-gap: 100vh;
+}
+
+
